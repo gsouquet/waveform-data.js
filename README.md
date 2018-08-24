@@ -139,7 +139,7 @@ const interpolateHeight = (total_height) => {
 };
 
 const y = interpolateHeight(canvas.height);
-const ctx = canvas.getContext();
+const ctx = canvas.getContext("2d");
 ctx.beginPath();
 
 // from 0 to 100
